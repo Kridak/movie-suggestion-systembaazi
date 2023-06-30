@@ -1,0 +1,7 @@
+To Host this application on NGROK
+First Install NGROK using pip install pyngrok
+Steps:
+Crate Account on NGROK
+Get The AUTH Token from There such as (2RvAOMvXMXN7Rxy5dyv6Ragb7Lf_72jwUSPxtegEBJRXNFZsb)
+Save this token by typing ngrok authtoken Your_Token
+Run Application on Using ngrok http port(this will be the port on which uvicorn is hosting)
